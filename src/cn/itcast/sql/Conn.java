@@ -5,6 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conn {
+	
 	private String Driver="com.microsoft.sqlserver.jdbc.SQLServerDriver";
 	private String uri;
 	private String name;
