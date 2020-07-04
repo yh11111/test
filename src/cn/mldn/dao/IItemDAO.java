@@ -29,7 +29,8 @@ public interface IItemDAO {
 	public boolean dofindId(item vo)throws Exception;
 	/**
 	  * 根据项目名称查询指定的类别信息
-	 * @param id要查询编号
+	 * @param username 用户名
+	 *  @param itemname 类别名
 	 * @return 如果文件中有数据，则返回的数据会封装为VO对象而后利用List集合返回
 	 * @throws Exception IO执行异常
 	 */
